@@ -124,3 +124,15 @@ research-guidance-system/
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
+
+
+### Frontend
+```bash
+cd frontend
+npm install
+npm run dev
+
+Open the application in your browser at:
+
+http://localhost:5173
+
