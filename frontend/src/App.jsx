@@ -2,6 +2,15 @@
 venv\Scripts\activate
 uvicorn main:app --reload
 */
+
+/*
+cd backend
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python main.py
+
+*/
 import { useState } from "react";
 import {
   uploadPDF,
